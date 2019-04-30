@@ -1,0 +1,9 @@
+public/
+.vscode
+**/node_modules/
+*.log/
+*.vscode/
+*.idea/
+*.DS_Store
+*.deploy_git
+.deploy_git
