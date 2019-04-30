@@ -1,5 +1,6 @@
-> This HuWeihuang theme created by [HuWeihuang](http://www.huweihuang.com/) modified from the original Porter [YuHsuan]### 基于hexo 搭建的博客系统
-
+### 基于hexo搭建的自己博客
+> 1. 在线查看地址：https://maliaomj.github.io/
+> 2. 我的GitHub Pages 地址：https://github.com/maliaoMJ/maliaoMJ.github.io
 ### 项目构建
 > 1. 拉取代码
 
