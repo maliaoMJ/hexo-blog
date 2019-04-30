@@ -70,9 +70,10 @@ widgets:
 - featured-tags
 - short-about
 - recent-posts
+- category
 - archive
 - friends-blog
-# - category
+
 
 # widget behavior
 ## Archive
