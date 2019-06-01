@@ -33,7 +33,51 @@ layout: layout
                 </ul>
 
                 <br>
-
+<!--PC和WAP自适应版-->
+            <div id="SOHUCS" sid="<%= page.path %>"></div>
+            <script type="text/javascript">
+                (function () {
+                    var appid = 'cyudaHkzu';
+                    var conf = 'prod_53d882f398ccb8a21ddd91e1aefc77a0';
+                    var width = window.innerWidth || document.documentElement.clientWidth;
+                    if (width < 960) {
+                        window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+                    
+                                var adDoc = document.getElementById('pop_ad')
+                                var docs = document.querySelector('.module-cmt-float-bar')
+                                var wapper = document.getElementById('feedAv')
+                                if (adDoc) {
+                                    adDoc.style.display = 'none!important'
+                                    console.log('hello')
+                                }
+                                if (wapper) {
+                                    wapper.style.display = 'none!important'
+                                }
+                                if (docs) {
+                                    docs.style.display = 'none!important'
+                                }
+                                console.log('none')
+                           
+                            } else { var loadJs = function (d, a) { var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement; var b = document.createElement("script"); b.setAttribute("type", "text/javascript"); b.setAttribute("charset", "UTF-8"); b.setAttribute("src", d); if (typeof a === "function") { if (window.attachEvent) { b.onreadystatechange = function () { var e = b.readyState; if (e === "loaded" || e === "complete") { b.onreadystatechange = null; a() } } } else { b.onload = a } } c.appendChild(b) }; loadJs("https://changyan.sohu.com/upload/changyan.js", function () { 
+                                var adDoc = document.getElementById('pop_ad')
+                                var docs = document.querySelector('.module-cmt-float-bar')
+                                var wapper = document.getElementById('feedAv')
+                                if (adDoc) {
+                                    adDoc.style.display = 'none!important'
+                                    console.log('hello')
+                                }
+                                if (wapper) {
+                                    wapper.style.display = 'none!important'
+                                }
+                                if(docs) {
+                                    docs.style.display = 'none!important'
+                                }
+                                console.log('none')
+                        window.changyan.api.config({ appid: appid, conf: conf }) });
+                    }
+                    
+                })();
+                </script>
                 <!--打赏-->
                 <% if(config['reward']) { %>
                     <div class="reward">
@@ -244,6 +288,24 @@ layout: layout
 </script>
 <style>
     /* place left on bigger screen */
+    #pop_ad{
+        display: none!important;
+    }
+    #feedAv{
+        display: none!important;
+    }
+    .module-cmt-float-bar{
+        display: none!important;
+    }
+    .list-content-wrapper-wap:last-child{
+        display: none!important;
+    }
+    div[ad-wap-feed='ad-wap-feed']{
+        display: none!important;
+    }
+    #baidu_new_ad,#bianxianmao_ad,.list-ctrl-area-wap{
+       display: none!important; 
+    }
     @media all and (min-width: 800px) {
         .anchorjs-link{
             position: absolute;
