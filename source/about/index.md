@@ -26,9 +26,9 @@ fixed: false
 ### 联系我
 >QQ: 1302151931
 >邮箱: lazykids520@gmail.com
->微信: wxid_ooyfs990jdvs22
+>微信: Carlos776582
 
 ### 我的音乐
-> 用户名：神秘的地下党
+> 用户名：XGJF流川枫
 > 数据来源于： 网易云音乐 --> 我喜欢的音乐
 
