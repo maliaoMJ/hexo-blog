@@ -18,17 +18,14 @@ fixed: false
 
 ### 兴趣方向
 
-> 前端（Vue、React等）相关生态技术研究。
-> 运维：GitLab,Jenkins等CI/CD 的构建。
-> 后端：Nodejs,Golang等。
----
-> 一个不会运维的后端，不是一个好的前端。
+> 前端（Vue、React等）相关生态技术学习。
+
 ### 联系我
 >QQ: 1302151931
 >邮箱: lazykids520@gmail.com
 >微信: Carlos776582
 
 ### 我的音乐
-> 用户名：XGJF流川枫
+> 用户名：八号当铺WTF
 > 数据来源于： 网易云音乐 --> 我喜欢的音乐
 
